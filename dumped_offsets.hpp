@@ -1,7 +1,6 @@
 /*
-    PID: 49760
+    PID: 47832
     injector offset adder BY maxey
-    REPO: https://github.com/fkenedddyjon-png/robloxoffsets
 */
 
 // INTERNAL OFFSETS
