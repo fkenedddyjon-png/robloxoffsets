@@ -1,5 +1,5 @@
 /*
-    PID: 10384
+    PID: 27936
     injector offset adder BY maxey
 */
 
@@ -12,7 +12,18 @@ inline uintptr_t Overlap = 0x288;
 inline uintptr_t GlobalState = 0x140;
 inline uintptr_t RequireBypass = 0x8E4;
 inline uintptr_t GetSetImplementation = 0x90;
+inline uintptr_t Name = 0xB0;
+inline uintptr_t GameLoaded = 0x5F8;
+inline uintptr_t Children = 0x70;
+inline uintptr_t Workspace = 0x178;
 inline uintptr_t ClassDescriptor = 0x18;
+inline uintptr_t Camera = 0x460;
+inline uintptr_t LocalPlayer = 0x130;
+inline uintptr_t JumpPower = 0x1B0;
+inline uintptr_t Walkspeed = 0x1D4;
+inline uintptr_t WalkspeedCheck = 0x3C0;
+inline uintptr_t Health = 0x194;
+inline uintptr_t ScriptContext = 0x3F0;
 
 // HYPERION OFFSETS
 inline uintptr_t BitMap = REBASEHYPERION(0x16E1480);
